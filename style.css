@@ -1,26 +1,24 @@
 * {
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-size: 10px;
-    margin-top: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3em;
+    margin-top: 3em;
 }
 
 button {
-    width: 10em;
-    height: 3em;
+    color: #F9FAF8;
+    font-weight: bold;
     background-color: #6a7eba;
     border-style: none;
     border-radius: 0.5em;
-    font-weight: bold;
-    font-size: 2em;
-    color: #F9FAF8;
+    padding: 1rem;
 }
 
 #container {
@@ -46,3 +44,19 @@ button {
     /* width: 30px;  */
     /* height: 30px; */ 
     }
+
+.portfolio {
+    display: flex;
+    gap: 2rem;
+}
+
+a, a:visited {
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #44558a;
+}
+    
+a:hover {
+    color: #6a7eba;
+}
